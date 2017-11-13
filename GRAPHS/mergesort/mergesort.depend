@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510585191 source:c:\users\prajval\desktop\dsa\graphs\mergesort\main.c
+	<stdio.h>
+	<stdlib.h>
+

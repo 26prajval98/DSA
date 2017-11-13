@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510580611 source:c:\users\prajval\desktop\dsa\graphs\qsort\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510470042 source:c:\users\prajval\desktop\dsa\graphs\dfs_using adjacencymatrix\main.c
+	<stdio.h>
+	<stdlib.h>
+
