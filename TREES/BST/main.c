@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// A program useful for executing delete insert operations on BST
 typedef struct node{
     int data;
     struct node* left;
