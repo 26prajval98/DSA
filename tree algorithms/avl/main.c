@@ -71,7 +71,7 @@ Node* AVLInsert(Node* root, int data){
     }
     int balance = findHeight(root->left)-findHeight(root->right);
     if(balance>1){
-        if(data < root->data){
+        if(data < root->left->data){
             root = rightRotate(root);
         }
         else{
@@ -80,7 +80,7 @@ Node* AVLInsert(Node* root, int data){
         }
     }
     else if(balance<-1){
-        if(data  > root->data){
+        if(data  > root->right->data){
             root = leftRotate(root);
         }
         else{
